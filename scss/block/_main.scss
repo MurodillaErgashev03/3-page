@@ -1,0 +1,291 @@
+.site-main {
+    &__box {
+        max-width: 1280px;
+        height: 450px;
+        background-color: #333D4B;
+        border-radius: 10px;
+        padding-top: 134px;
+    }
+
+    &__title {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FEFCF7;
+
+        margin-bottom: 32px;
+        margin-left: 85px;
+    }
+
+    &__text {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+        max-width: 445px;
+        height: 78px;
+        margin-left: 85px;
+    }
+}
+
+.choose {
+    margin-top: 168px;
+    margin-bottom: 168px;
+
+    &__box {
+        max-width: 1280px;
+        height: 653px;
+        background-color: #333D4B;
+        padding-top: 115px;
+        padding-left: 100px;
+    }
+
+    &__box-1 {
+
+        display: flex;
+        align-items: center;
+        width: 760px;
+        position: relative;
+
+    }
+
+    &__line {
+        width: 31px;
+        height: 31px;
+        border: 2px solid #0E8784;
+        border-radius: 50%;
+    }
+
+    &__span {
+        width: 380px;
+        margin-left: -15.5px;
+        margin-right: -15.5px;
+        background-color: #FDD6BA;
+    }
+
+    &__list {
+        display: flex;
+        margin-top: 82px;
+        margin-left: -95px;
+    }
+
+    &__item {
+        max-width: 285px;
+        height: 355px;
+        margin-left: 95px;
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FDD6BA;
+    }
+
+    &__item-title {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #FEFCF7;
+        margin-top: 38px;
+        max-width: 255px;
+    }
+
+    &__text {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+        margin-top: 42px;
+    }
+}
+
+.drink {
+    &__container {
+        display: flex;
+        padding-left: 100px;
+    }
+
+    &__right-box {
+        max-width: 255px;
+        height: 356px;
+        margin-right: 125px;
+    }
+
+    &__span {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        margin-right: 28px;
+
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #333D4B;
+        opacity: 0.4;
+
+
+    }
+
+    &__line {
+        background: #83888F;
+        mix-blend-mode: normal;
+        opacity: 0.25;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+    &__text:hover {
+        color: #333D4B;
+        opacity: 1;
+    }
+
+    &__text:hover .drink__span {
+        color: #0E8784;
+        opacity: 1;
+    }
+
+    &__details {
+        margin-bottom: 88px;
+    }
+
+    &__summary {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #83888F;
+
+    }
+
+    &__list {
+        display: flex;
+        margin-top: 56px;
+        margin-right: -23px;
+    }
+
+    &__item {
+        width: 228px;
+        height: 250px;
+        background: #F4F1EB;
+        border-radius: 8px;
+        margin-left: 23px;
+
+
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #333D4B;
+        padding-top: 32px;
+        margin-left: 28px;
+
+    }
+
+    &__item-text {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+        max-width: 172px;
+        margin-top: 24px;
+        margin-left: 28px;
+    }
+
+    &__item:hover {
+        background: #FDD6BA;
+        border-radius: 8px;
+    }
+
+    &__item:active .drink__title {
+        border-radius: 8px;
+        color: white;
+    }
+
+    &__item:active .drink__item-text {
+        border-radius: 8px;
+        color: white;
+    }
+
+    &__item:active {
+        border-radius: 8px;
+        background-color: #0E8784;
+    }
+
+    &__little {
+        width: 730px;
+        height: 208px;
+        background-color: #333D4B;
+        border-radius: 8px;
+    }
+
+    &__little-title {
+        padding-top: 47px;
+        margin-left: 64px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+    }
+
+    &__little-text {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 40px;
+        color: #FFFFFF;
+        margin-left: 64px;
+        margin-top: 8px;
+    }
+
+    &__span {
+        color: #0E8784;
+    }
+
+    &__button {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: #FEFCF7;
+        padding: 15px 35px;
+        margin-top: 40px;
+        margin-left: 500px;
+        border-radius: 8px;
+        border: none;
+        margin-bottom: 168px;
+       
+    }
+    &__button:hover{
+          background: #66D2CF;
+    }
+    &__button:active{
+        background: #0E8784;
+  }
+}

@@ -1,0 +1,39 @@
+.site-footer {
+    margin-bottom: 88px;
+    &__container {
+        max-width: 1280px;
+        height: 120px;
+        background: #2C343E;
+        padding: 45px 85px;
+        display: flex;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 71px;
+    }
+
+    &__link {
+
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.923077px;
+        text-transform: uppercase;
+        color: #83888F;
+        margin-left: 32px;
+    }
+    &__list-1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 344px;
+    }
+    &__item-1{
+        margin-left: 24px;
+    }
+}

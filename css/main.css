@@ -1,0 +1,387 @@
+/* fraunces-regular - latin */
+@font-face {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/fraunces-v24-latin-regular.woff2") format("woff2"), url("../fonts/fraunces-v24-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* fraunces-900 - latin */
+@font-face {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/fraunces-v24-latin-900.woff2") format("woff2"), url("../fonts/fraunces-v24-latin-900.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* barlow-regular - latin */
+@font-face {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/barlow-v12-latin-regular.woff2") format("woff2"), url("../fonts/barlow-v12-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* barlow-500 - latin */
+@font-face {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/barlow-v12-latin-500.woff2") format("woff2"), url("../fonts/barlow-v12-latin-500.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* barlow-600 - latin */
+@font-face {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/barlow-v12-latin-600.woff2") format("woff2"), url("../fonts/barlow-v12-latin-600.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* barlow-700 - latin */
+@font-face {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/barlow-v12-latin-700.woff2") format("woff2"), url("../fonts/barlow-v12-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+ul, ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  margin: 0;
+  font-family: "Fraunces";
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.site-header {
+  padding: 43px 0;
+}
+.site-header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-header__list {
+  display: flex;
+  margin-left: -32px;
+}
+.site-header__link {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888F;
+  margin-left: 32px;
+}
+
+.site-main__box {
+  max-width: 1280px;
+  height: 450px;
+  background-color: #333D4B;
+  border-radius: 10px;
+  padding-top: 134px;
+}
+.site-main__title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FEFCF7;
+  margin-bottom: 32px;
+  margin-left: 85px;
+}
+.site-main__text {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  max-width: 445px;
+  height: 78px;
+  margin-left: 85px;
+}
+
+.choose {
+  margin-top: 168px;
+  margin-bottom: 168px;
+}
+.choose__box {
+  max-width: 1280px;
+  height: 653px;
+  background-color: #333D4B;
+  padding-top: 115px;
+  padding-left: 100px;
+}
+.choose__box-1 {
+  display: flex;
+  align-items: center;
+  width: 760px;
+  position: relative;
+}
+.choose__line {
+  width: 31px;
+  height: 31px;
+  border: 2px solid #0E8784;
+  border-radius: 50%;
+}
+.choose__span {
+  width: 380px;
+  margin-left: -15.5px;
+  margin-right: -15.5px;
+  background-color: #FDD6BA;
+}
+.choose__list {
+  display: flex;
+  margin-top: 82px;
+  margin-left: -95px;
+}
+.choose__item {
+  max-width: 285px;
+  height: 355px;
+  margin-left: 95px;
+}
+.choose__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FDD6BA;
+}
+.choose__item-title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #FEFCF7;
+  margin-top: 38px;
+  max-width: 255px;
+}
+.choose__text {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  margin-top: 42px;
+}
+
+.drink__container {
+  display: flex;
+  padding-left: 100px;
+}
+.drink__right-box {
+  max-width: 255px;
+  height: 356px;
+  margin-right: 125px;
+}
+.drink__span {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  margin-right: 28px;
+}
+.drink__text {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333D4B;
+  opacity: 0.4;
+}
+.drink__line {
+  background: #83888F;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.drink__text:hover {
+  color: #333D4B;
+  opacity: 1;
+}
+.drink__text:hover .drink__span {
+  color: #0E8784;
+  opacity: 1;
+}
+.drink__details {
+  margin-bottom: 88px;
+}
+.drink__summary {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #83888F;
+}
+.drink__list {
+  display: flex;
+  margin-top: 56px;
+  margin-right: -23px;
+}
+.drink__item {
+  width: 228px;
+  height: 250px;
+  background: #F4F1EB;
+  border-radius: 8px;
+  margin-left: 23px;
+}
+.drink__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333D4B;
+  padding-top: 32px;
+  margin-left: 28px;
+}
+.drink__item-text {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  max-width: 172px;
+  margin-top: 24px;
+  margin-left: 28px;
+}
+.drink__item:hover {
+  background: #FDD6BA;
+  border-radius: 8px;
+}
+.drink__item:active .drink__title {
+  border-radius: 8px;
+  color: white;
+}
+.drink__item:active .drink__item-text {
+  border-radius: 8px;
+  color: white;
+}
+.drink__item:active {
+  border-radius: 8px;
+  background-color: #0E8784;
+}
+.drink__little {
+  width: 730px;
+  height: 208px;
+  background-color: #333D4B;
+  border-radius: 8px;
+}
+.drink__little-title {
+  padding-top: 47px;
+  margin-left: 64px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.drink__little-text {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+  color: #FFFFFF;
+  margin-left: 64px;
+  margin-top: 8px;
+}
+.drink__span {
+  color: #0E8784;
+}
+.drink__button {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FEFCF7;
+  padding: 15px 35px;
+  margin-top: 40px;
+  margin-left: 500px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 168px;
+}
+.drink__button:hover {
+  background: #66D2CF;
+}
+.drink__button:active {
+  background: #0E8784;
+}
+
+.site-footer {
+  margin-bottom: 88px;
+}
+.site-footer__container {
+  max-width: 1280px;
+  height: 120px;
+  background: #2C343E;
+  padding: 45px 85px;
+  display: flex;
+}
+.site-footer__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 71px;
+}
+.site-footer__link {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888F;
+  margin-left: 32px;
+}
+.site-footer__list-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 344px;
+}
+.site-footer__item-1 {
+  margin-left: 24px;
+}/*# sourceMappingURL=main.css.map */
